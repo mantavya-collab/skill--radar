@@ -1,0 +1,20 @@
+/* Custom CSS for Skill Radar UI */
+
+/* Highlight rows based on overlap hours */
+.match-high {
+  background-color: #d4edda; /* light green */
+}
+.match-medium {
+  background-color: #fff3cd; /* light yellow */
+}
+.match-low {
+  background-color: #f8d7da; /* light red */
+}
+
+/* Reduce spacing on cards on small screens */
+@media (max-width: 576px) {
+  .card {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

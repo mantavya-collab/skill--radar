@@ -1,0 +1,15 @@
+{
+  "python": {
+    "easy": [
+      {"q": "What is the keyword to define a function?", "options": ["def", "function", "fun"], "a": 0},
+      {"q": "How do you print Hello World?", "options": ["echo 'Hello'", "print('Hello')", "printf('Hello')"], "a": 1}
+    ],
+    "medium": [
+      {"q": "Which data type is immutable?", "options": ["list", "dict", "tuple"], "a": 2},
+      {"q": "What does the // operator do?", "options": ["Division", "Floor division", "Modulo"], "a": 1}
+    ],
+    "hard": [
+      {"q": "What is a generator expression used for?", "options": ["Creating a list", "Creating an iterator", "Defining a function"], "a": 1}
+    ]
+  }
+}
